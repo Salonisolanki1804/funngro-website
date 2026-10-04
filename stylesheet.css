@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+    padding-top: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7fbf9;
+    color: #17252d;
+}
+.navbar {
+            background: #f7fbf9;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+.navbar-collapse .navbar-nav .nav-link{
+      color: #000000;
+      font-weight: bold;
+      margin: 0px 5px 0px 5px;
+     }
+.navbar-collapse .navbar-nav .nav-link:hover{
+    color: #16a673;
+}
+
+.hero{
+    background-color: #f7fbf9;
+    padding: 50px 20px;
+}
+.hero h1 {
+        font-size: 43px;
+        letter-spacing: -2px;
+        font-weight: bolder;
+        }
+.hero h1 span {
+            color: #16a673;
+        }
+.hero img{
+    width: 450px;
+    max-width: 100%;
+    height: auto;
+    padding: 10px 0px;
+}
+/* section */
+.section {
+            padding: 75px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #718087;
+            margin-bottom: 45px;
+        }
+  /* Cards */
+        .feature-card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            height: 100%;
+            border: 1px solid #edf1ef;
+            transition: 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+            border-color: #bcebd7;
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: #e4f8ef;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .feature-card h4 {
+            font-size: 21px;
+            margin-bottom: 10px;
+        }
+
+        .feature-card p {
+            color: #727f84;
+            line-height: 1.6;
+        }
+        /* Steps */
+        .step-number {
+            width: 55px;
+            height: 55px;
+            background: #16a673;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            font-weight: bold;
+            margin: 0 auto 18px;
+        }
+
+        .step {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .step h4 {
+            font-size: 20px;
+        }
+
+        .step p {
+            color: #718087;
+        }
+        /* skills */
+         .skill-card {
+            background: white;
+            border-radius: 18px;
+            padding: 25px;
+            text-align: center;
+            height: 100%;
+            border: 1px solid #edf1ef;
+            transition: 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+        }
+
+        .skill-card .icon {
+            font-size: 42px;
+            margin-bottom: 12px;
+        }
+        /* cta */
+        .cta {
+            background-color: #e4eee9;
+            padding: 70px 20px;
+            text-align: center;
+            border-radius: 30px;
+            margin-bottom: 70px;
+        }
+
+        .cta h2 {
+            font-size: 38px;
+            font-weight: 700;
+        }
+
+        .cta p {
+            color: #607087;
+            margin: 15px 0 25px;
+        }
+/* footer */
+  footer {
+            background: #102640;
+            border-top: 1px solid #edf1ef;
+            padding: 50px 0;
+            color: #dce7f2;
+        }
+   footer img{
+    height: 50px;
+    width: 70px;
+   }
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 34px;
+    }
+    .hero {
+        padding: 35px 15px;
+    }
+}
